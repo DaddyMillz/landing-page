@@ -7,19 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="main-header">
-        <nav class="navbar">
-            <a href="#" class="logo">DaddyMillz Hub</a>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="nav-icons">
-                <a href="#">&#x1F50E;</a> <a href="#">&#x1F6D2;</a> </div>
-        </nav>
-    </header>
+<header> <!-- new -->
+<nav class="nav">  
+    
+    <div class="Logo">DaddyMillz Hub</div>
+
+<ul class="navLinks" id="navLinks">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Shop</a></li>
+    <li><a href="#social-media">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+<div class="nav-icons">
+<a href="#">&#x1F50E;</a> <a href="#">&#x1F6D2;</a>
+</div>
+
+  <div class="navToggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</nav>
+</header>
 
     <main>
         <section class="hero-section">
@@ -89,12 +100,12 @@
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
             </div>
-            <div class="footer-contact">
+            <div class="footer-contact" id="contact">
                 <h4>Contact Us</h4>
                 <p>Email: daddymillzhub@eshop.com</p>
                 <p>Phone: +2349054113325</p>
             </div>
-            <div class="social-media">
+            <div class="social-media" id="social-media">
                 <h4>Follow Us</h4>
                 <div class="social-icons">
                     <img src="./images/social-icons.svg" alt="socail"> </div>
@@ -104,5 +115,7 @@
             <p>&copy; 2025 DaddyMillz Hub. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
